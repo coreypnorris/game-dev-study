@@ -8,7 +8,7 @@
     "build": "tsc",
     "build:watch": "tsc --watch",
     "dev": "concurrently \"npm run build:watch\" \"npm run serve\"",
-    "serve": "browser-sync start --server --files 'dist/**/*.js,css/**/*.css,*.html' --port 8080 --open",
+    "serve": "browser-sync start --config bs-config.cjs",
     "clean": "rimraf dist",
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix",
