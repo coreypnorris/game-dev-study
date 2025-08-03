@@ -15,7 +15,7 @@ module.exports = {
         "*.html"
     ],
     port: 8080,
-    open: true,
+    open: false,
     notify: false,
     reloadDelay: 0,
     reloadDebounce: 1000,
